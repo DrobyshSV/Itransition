@@ -1,0 +1,1 @@
+const a=process.argv.slice(2);let r='';if(a.length < 1){console.log('');}else{for(let i=0;i<a[0].length;i++){for(let j=i+1;j<=a[0].length;j++){const s=a[0].substring(i,j);if(a.every((el)=>el.includes(s))&&s.length>r.length){r=s;}}}console.log(r);}
