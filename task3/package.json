@@ -1,0 +1,24 @@
+{
+  "name": "task3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/game.js",
+  "scripts": {
+    "start": "tsc && node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/cli-color": "^2.0.3",
+    "@types/cli-table": "^0.3.2",
+    "@types/node": "^20.8.3",
+    "@types/readline-sync": "^1.4.5",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "cli-color": "^2.0.3",
+    "cli-table": "^0.3.11",
+    "readline-sync": "^1.4.10"
+  }
+}
