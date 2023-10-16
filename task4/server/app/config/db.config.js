@@ -1,8 +1,8 @@
 module.exports = {
-  HOST: "localhost",
-  USER: "root",
-  PASSWORD: "123123123",
-  DB: "drobyshdb",
+  HOST: "b2bjlldu3xaalimwwltk-mysql.services.clever-cloud.com",
+  USER: "uf6gows8fqmesuaj",
+  PASSWORD: "UnHn2nV2MfZaILLracak",
+  DB: "b2bjlldu3xaalimwwltk",
   dialect: "mysql",
   pool: {
     max: 5,
