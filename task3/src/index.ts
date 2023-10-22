@@ -9,11 +9,11 @@ function handleError(message: string) {
 }
 
 if (args.length !== moves.length) {
-  handleError('Invalid arguments. Please provide a set of unique moves.');
+  handleError('Invalid arguments. Please provide a set of unique moves.For example: rock, scissors, paper');
 }
 
 if (moves.length < 3 || moves.length % 2 === 0) {
-  handleError('Invalid number of arguments. Please provide an odd number of unique moves.');
+  handleError('Invalid number of arguments. Please provide an odd number of unique moves.For example: rock, scissors, paper');
 }
 
 const game = new Game(moves);
